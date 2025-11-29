@@ -1,13 +1,32 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "Root_Cellar_Garden_Logo",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Root_Cellar_Garden_Logo",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.9822916666666668,
+      "y": 0.508557457212714,
+      "uniqueID": "id-2"
+    },
+    {
+      "atomType": "Import",
+      "x": 0.6296875,
+      "y": 0.6356968215158925,
+      "uniqueID": "id-4",
+      "fileName": "logo.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "paulsmyk",
+      "repoName": "Root_Cellar_Garden_Logo",
+      "SVGwidth": 10
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
